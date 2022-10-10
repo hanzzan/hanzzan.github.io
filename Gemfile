@@ -1,4 +1,4 @@
 source "https://rubygems.org"
 gem "github-pages"
-group "ekyll_plugins"
+group "jekyll_plugins"
 gemspec
