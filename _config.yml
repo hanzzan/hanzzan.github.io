@@ -79,6 +79,12 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
+# Collections
+collections:
+  recipes:
+    output: true
+    permalink: /:collection/:path/
+
 # Front Matter Defaults
 defaults:
   # Posts defaults
@@ -102,6 +108,12 @@ author:
 
 # Footer Links
 footer_links:
+  - title: Instagram
+    url: https://instagram.com/_hanzzan
+    icon: fab fa-instagram
+  - title: Facebook
+    url: https://www.facebook.com/letter.hanzzan
+    icon: fab fa-facebook
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
