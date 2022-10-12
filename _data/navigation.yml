@@ -3,16 +3,16 @@
 #- title: Home
 #  url: /
 - title: About
-  url : /pages/about.md
+  url : /about
 - title: Hometending
-  url: /pages/hometending/
+  url: /hometending/
 - title: Story
-  url: /pages/story/
+  url: /story/
 - title: Categories
-  url: /pages/categories/
+  url: /categories/
 - title: Tags
-  url: /pages/tags/
+  url: /tags/
 - title: Search
-  url: /pages/search/
+  url: /search/
 # - title: External Page
 #   url: https://the-page.com/you-want-to-link-to.html
