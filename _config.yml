@@ -18,7 +18,7 @@ remote_theme: "mmistakes/so-simple-theme@3.2.0"
 skin: "/assets/css/skins/default.css"
 locale: en-US
 title: "한잔레터 - hanzzan"
-description: "당신의 고품격 주류 문화를 위한 뉴스레터 test"
+description: "당신의 고품격 주류 문화를 위한 뉴스레터 test v0.1"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: "https://hanzzan.github.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: "/images/logo.png" # path of site logo, e.g. "/images/logo.png"
@@ -51,8 +51,8 @@ feed:
   path: atom.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
-# paginate: 10
-# paginate_path: /page:num/
+paginate: 10
+paginate_path: /page:num/
 
 # Search
 search_full_content: false # can have performance implications for large sites
@@ -81,7 +81,7 @@ plugins:
 
 # Collections
 collections:
-  recipes:
+  hometending:
     output: true
     permalink: /:collection/:path/
 
